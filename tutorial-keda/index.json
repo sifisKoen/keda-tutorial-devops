@@ -3,16 +3,13 @@
   "description": "Access services running inside a Kubernetes environment",
   "details": {
     "intro": {
-      "text": "intro.md"
+      "text": "hello.md"
     },
     "steps": [
       {
         "title": "Run Nginx and access default page",
-        "text": "step1.md"
+        "text": "hello.md"
       }
     ]
-  },
-  "backend": {
-    "imageid": "kubernetes-kubeadm-2nodes"
   }
 }
