@@ -26,21 +26,21 @@ We have all ready created the _server, landing page and the Dockerfile_ for you.
 
 What you need to do is just to build the Docker container. It's very simple. You need just to click the code behind. And the magic will happen. 🪄
 
-````cmd
+````
 docker build -t server
 ```{{exec}}
 
 Perfect now you have build your Docker container
 Now we need to run it so to have access to our page. Click the next command.
 
-```cmd
+```
 docker run -dp 8080:8080 server
 ```{{exec}}
 
 **Perfect!!** Now you have build and run your Docker container.
 Now if you want to see the container you can just run the following command.
 
-```cmd
+```
 docker ps
 ```{{exec}}
 
