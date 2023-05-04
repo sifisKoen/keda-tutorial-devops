@@ -7,8 +7,8 @@
     },
     "steps": [
       {
-        "title": "Test",
-        "text": "intro/intro.md"
+        "title": "Spin the server and the page",
+        "text": "create_our_server/create_our_server.md"
       }
     ],
     "assets": 
