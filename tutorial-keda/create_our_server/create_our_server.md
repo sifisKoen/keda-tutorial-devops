@@ -27,7 +27,7 @@ We have all ready created the _server, landing page and the Dockerfile_ for you.
 What you need to do is just to build the Docker container. It's very simple. You need just to click the code behind. And the magic will happen. 🪄
 
 ```
-docker build -t server
+docker build . -t server
 ```{{exec}}
 
 Perfect now you have build your Docker container
