@@ -10,7 +10,12 @@
         "title": "Test",
         "text": "intro/intro.md"
       }
+    ],
+    "assets": 
+    {"host01": [
+      {"file": "**", "target": "/root"}
     ]
+  }
   },
   "backend": {
     "imageid": "kubernetes-kubeadm-2nodes"
