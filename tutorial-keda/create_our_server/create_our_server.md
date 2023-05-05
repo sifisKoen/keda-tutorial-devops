@@ -24,20 +24,14 @@ We use a Docker container so do not need to install all the dependencies of our 
 
 We have all ready created the _server, landing page and the Dockerfile_ for you. You don't need to create nothing we got you 😄
 
-What you need to do is just to build the Docker container. It's very simple. You need just to click the code behind. And the magic will happen. 🪄
+What you need to do is just to run the Docker container. It's very simple. You need just to click the code behind. And the magic will happen. 🪄
 
 ```
-docker build . -t server
+docker run -dp 8080:8080 iosifkoen/keda_server_tutorial
 ```{{exec}}
 
-Perfect now you have build your Docker container
-Now we need to run it so to have access to our page. Click the next command.
+**Perfect!!** Now you have build and run your Docker container, from the docker hub. You can find the docker hub repository here: [docker-container]
 
-```
-docker run -dp 8080:8080 server
-```{{exec}}
-
-**Perfect!!** Now you have build and run your Docker container.
 Now if you want to see the container you can just run the following command.
 
 ```
@@ -46,4 +40,9 @@ docker ps
 
 Now you should see the container in our command line.
 
+If you want to see how to push you own container to **docker hub** you can see the Docker documentation page: [docker-documentation]
+
 [Flask]: https://flask.palletsprojects.com/en/2.3.x/
+[docker-container]: https://hub.docker.com/repository/docker/iosifkoen/keda_server_tutorial/general
+[docker-documentation]: https://docs.docker.com/
+
