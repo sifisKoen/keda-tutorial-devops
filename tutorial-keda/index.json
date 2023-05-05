@@ -9,6 +9,11 @@
       {
         "title": "Spin the server and the page",
         "text": "create_our_server/create_our_server.md"
+      },
+      
+      {
+        "title": "Implement Prometheus monitoring"
+        "text": "monitor_server_with_prometheus/monitor_server_with_prometheus.md"
       }
     ],
     "assets": 
