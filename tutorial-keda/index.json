@@ -9,6 +9,10 @@
       {
         "title": "Spin the server and the page",
         "text": "create_our_server/create_our_server.md"
+      },
+      {
+        "title": "Create our POD and spin it in to our cluster",
+        "text": "deploy_to_kubenetes/deploy_to_kubernetes.md"
       }
     ],
     "assets": 
