@@ -17,5 +17,9 @@ KEDA can be used in multiple ways in multiple applications like, edge applicatio
 
 In this tutorial you will learn the following topics.
 
-- Create a docker container
-- Deploy an application in Kubernetes cluster
+- Create and upload a docker container to docker hub.
+- Deploy an application in Kubernetes cluster.
+- Make the application exposed to real world.
+- Run and configure a Prometheus instance.
+- Connect Prometheus with KEDA tool (Kubernetes Event-driven Autoscaling).
+- Test our web page with K6 load testing.
