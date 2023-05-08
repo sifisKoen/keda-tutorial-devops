@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: server
-          image: iosifkoen/keda_server_tutorial
+          image: iosifkoen/keda_server_tutorial:latest
           ports:
             - containerPort: 8080
               protocol: TCP
