@@ -26,16 +26,18 @@ We have all ready created the _server, landing page and the Dockerfile_ for you.
 
 What you need to do is just to run the Docker container. It's very simple. You need just to click the code behind. And the magic will happen. 🪄
 
-```
-docker run -dp 8080:8080 iosifkoen/keda_server_tutorial
+````
+docker run -dp 8080:8080 iosifkoen/keda_server_tutorial:latest
 ```{{exec}}
 
 **Perfect!!** Now you have build and run your Docker container, from the docker hub. You can find the docker hub repository here: [docker-container]
 
 Now if you want to see the container you can just run the following command.
 
-```
+````
+
 docker ps
+
 ```{{exec}}
 
 Now you should see the container in our command line.
@@ -46,3 +48,4 @@ If you want to see how to push you own container to **docker hub** you can see t
 [docker-container]: https://hub.docker.com/repository/docker/iosifkoen/keda_server_tutorial/general
 [docker-documentation]: https://docs.docker.com/
 
+```

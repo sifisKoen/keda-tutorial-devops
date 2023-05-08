@@ -1,6 +1,7 @@
 import os
 from flask import Flask, jsonify, render_template
 from flask_cors import CORS
+from prometheus_flask_exporter import PrometheusMetrics, Counter
 
 template_directory = os.path.abspath('src/templates')
 static_directory = os.path.abspath('src/static')
@@ -8,6 +9,17 @@ static_directory = os.path.abspath('src/static')
 app = Flask(__name__, template_folder=template_directory,
             static_folder=static_directory)
 CORS(app)
+
+metrics = PrometheusMetrics(app)
+metrics.info('app_info', 'Application info', version='1.0')
+
+counter = Counter('requests_total', 'Total number of requests')
+
+
+@app.route('/metrics')
+def metrics():
+    counter.inc()
+    return metrics.metrics, 200
 
 
 @app.route('/')
