@@ -26,7 +26,7 @@ We have all ready created the _server, landing page and the Dockerfile_ for you.
 
 What you need to do is just to run the Docker container. It's very simple. You need just to click the code behind. And the magic will happen. 🪄
 
-````
+```
 docker run -dp 8080:8080 iosifkoen/keda_server_tutorial:latest
 ```{{exec}}
 
@@ -34,18 +34,17 @@ docker run -dp 8080:8080 iosifkoen/keda_server_tutorial:latest
 
 Now if you want to see the container you can just run the following command.
 
-````
-
+```
 docker ps
-
 ```{{exec}}
 
 Now you should see the container in our command line.
+
+> We want to mention that in our Flask server we used a library so to expose our metrics to Prometheus. This library is available at **pypi** library of Python. The name of the library is: prometheus-flask-exporter. also you can see more information about the library here: [[prometheus-flask-exporter]]
 
 If you want to see how to push you own container to **docker hub** you can see the Docker documentation page: [docker-documentation]
 
 [Flask]: https://flask.palletsprojects.com/en/2.3.x/
 [docker-container]: https://hub.docker.com/repository/docker/iosifkoen/keda_server_tutorial/general
 [docker-documentation]: https://docs.docker.com/
-
-```
+[prometheus-flask-exporter]: https://pypi.org/project/prometheus-flask-exporter/
