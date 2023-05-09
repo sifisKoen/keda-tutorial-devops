@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: server
+spec:
+  selector:
+    matchLabels:
+      run: server
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        run: server
+    spec:
+      containers:
+        - name: server
+          image: iosifkoen/keda_server_tutorial:latest
+          ports:
+            - containerPort: 8080
+              protocol: TCP
