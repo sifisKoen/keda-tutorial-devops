@@ -13,13 +13,13 @@ CORS(app)
 metrics = PrometheusMetrics(app)
 metrics.info('app_info', 'Application info', version='1.0')
 
-counter = Counter('requests_total', 'Total number of requests')
+# counter = Counter('requests_total', 'Total number of requests')
 
 
-@app.route('/metrics')
-def metrics():
-    counter.inc()
-    return metrics.metrics, 200
+# @app.route('/metrics')
+# def prometheus_metrics():
+#     counter.inc()
+#     return metrics.export_metrics_as_latest(), 200
 
 
 @app.route('/')
