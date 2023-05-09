@@ -1,1 +1,0 @@
-# KEDA-Tutorial-DEVOPS
