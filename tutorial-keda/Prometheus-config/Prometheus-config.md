@@ -12,7 +12,7 @@ Ok let's start ▶️
 
 ### Ip address
 
-First we will find the ** < node-ip >** field. Execute this command. ```hostname -I```{{exec}} .Now you can see three IPs we will need the last one something like `192.168.0.0` make sure that is your machine IP address. Now copy this address and open our file with the editor of your choice.
+First we will find the ** < node-ip >** field. Execute this command. ```ip a```{{exec}} .Now you can see too many ips we will need the first ip you can see there **lo:** the ip should be `127.0.0.1`. Now copy this address and open our file with the editor of your choice.
 
 > To write to VIM just press the < i > in your keyboard and when you finish and you want to exit just press < ESC > and < :qw! >
 
