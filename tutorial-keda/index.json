@@ -13,6 +13,10 @@
       {
         "title": "Create our POD and spin it in to our cluster",
         "text": "deploy_to_kubenetes/deploy_to_kubernetes.md"
+      },
+      {
+        "title": "Install KEDA to our system",
+        "text": "KEDA-Installation/KEDA-Installation.md"
       }
     ],
     "assets": 

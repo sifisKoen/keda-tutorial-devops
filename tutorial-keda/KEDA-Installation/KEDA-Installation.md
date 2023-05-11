@@ -32,4 +32,21 @@ helm install keda kedacore/keda --namespace keda
 
 > For more information and more ways on how to install KEDA, we strongly suggest to visit the official page so to read more: [KEDA]
 
+---
+
+Finally let us confirm that we have the KEDA operator pod up and running on our namespace.This operator is our operator witch is actually our worker witch poll and config behavior from the Kubernetes Horizontal Pod Autoscaling(HPA) object.
+
+Execute the following commands.
+
+```cmd
+kubectl get pod -l app=keda-operator -n keda
+```{{exec}}
+
+
+```cmd
+kubectl logs pod/keda-operator-778cf49bcf-ftxn9 -n keda
+```{{exec}}
+
+
 [KEDA]: https://keda.sh/docs/2.4/deploy/
+
