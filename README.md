@@ -31,6 +31,6 @@
 
 ## TODO 💻
 
-- [ ] **K6** testing script.
+- [x] **K6** testing script.
 
 [iosifkoen/keda_server_tutorial:latest]: https://hub.docker.com/repository/docker/iosifkoen/keda_server_tutorial/general
