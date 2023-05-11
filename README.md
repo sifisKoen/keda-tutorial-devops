@@ -18,7 +18,7 @@
 - [x] Upload our Flask application to Docker Hub.
   - [iosifkoen/keda_server_tutorial:latest]
 - [x] Install **KEDA** to our Kubernetes project.
-- [x] All the steps all above.
+- [x] All the steps above.
 
 ---
 
