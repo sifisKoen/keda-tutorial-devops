@@ -17,6 +17,10 @@
       {
         "title": "Install KEDA to our system",
         "text": "KEDA-Installation/KEDA-Installation.md"
+      },
+      {
+        "title": "Prometheus Configuration",
+        "text": "Prometheus-config/Prometheus-config.md"
       }
     ],
     "assets": 
