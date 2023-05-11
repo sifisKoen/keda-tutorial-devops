@@ -15,5 +15,3 @@ spec:
       metricName: flask_server_request_rate
       query: sum(rate(http_requests_total{job="flask_server"}[1m]))
       threshold: '10'
-      auth:
-        insecureSkipVerify: "true"
