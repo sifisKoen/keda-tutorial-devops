@@ -19,8 +19,10 @@ metrics.info('app_info', 'Application info', version='1.0')
 
 # @app.route('/metrics')
 # def prometheus_metrics():
-#     counter.inc()
-#     return metrics.export_metrics_as_latest(), 200
+#     return metrics.generate_latest()
+# counter.inc()
+# return metrics.export_metrics_as_latest(), 200
+# return metrics.metrics, 200
 
 
 @app.route('/')
