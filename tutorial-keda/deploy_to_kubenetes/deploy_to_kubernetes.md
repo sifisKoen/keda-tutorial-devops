@@ -14,7 +14,7 @@ To create the POD you will need a _YAML_ file,
 
 Do not worry about that we have already created one for you. The only thing you need to do it to run this _YAML_ file. The command is very simple, and you have just to click the command bellow.
 
-````
+```
 kubectl apply -f server-pod.yaml
 ```{{exec}}
 
@@ -32,8 +32,7 @@ We gonna use a command for this purpose.
 
 First of all we can see only the half command here the only thing you have to do is to copy this command and paste it into the command line and tap the **TAB** button.
 
-````
-
+```
 kubectl expose pod server
 
 ```
@@ -44,7 +43,6 @@ Now that we have the first part of our command the only thing is to specify our 
 
 
 ```
-
 --name=exposed-server-pod --port=8080 --type=NodePort
 
 ```
@@ -54,7 +52,6 @@ Now that we have the first part of our command the only thing is to specify our 
 So to see your service execute this command.
 
 ```
-
 kubectl get services -o wide
 
 ```{{exec}}
@@ -71,4 +68,4 @@ A brief explanation of the flags.
 * `--port=8080` This flag is used to specify the port of the pod we are listening on.
 * `--type=NodePort` Finally this flag is used to specify what type will gonna be our service.
 
-```
+
