@@ -25,7 +25,7 @@
 ## What we have but need to be tested 🪛
 
 - [ ] **KEDA** yaml for scalable object.
-- [ ] **Prometheus** configuration yaml file.
+- [x] **Prometheus** configuration yaml file.
 
 ---
 
