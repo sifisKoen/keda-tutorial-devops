@@ -5,6 +5,6 @@ global:
 scrape_configs:
   - job_name: 'flask_server'
     static_configs:
-      - targets: ['<server-pod-ip>:8080']
+      - targets: ['<server-pod-ip>:<node-port>']
     metrics_path: '/metrics'
     honor_labels: true
