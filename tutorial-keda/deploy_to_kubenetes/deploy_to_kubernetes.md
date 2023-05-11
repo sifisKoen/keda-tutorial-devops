@@ -32,20 +32,14 @@ We gonna use a command for this purpose.
 
 First of all we can see only the half command here the only thing you have to do is to copy this command and paste it into the command line and tap the **TAB** button.
 
-```
-kubectl expose pod server
-
-```
+`kubectl expose pod server`
 
 What happened now was that because we don't know exactly the name of the pod in the cluster we use the **TAB** for the autocomplete.
 
 Now that we have the first part of our command the only thing is to specify our flags. Copy these flags into the terminal.
 
 
-```
---name=exposed-server-pod --port=8080 --type=NodePort
-
-```
+`--name=exposed-server-pod --port=8080 --type=NodePort`
 
 **Congratulations !** You have created your own service witch is used to expose your pod.
 
@@ -67,5 +61,3 @@ A brief explanation of the flags.
 * `--name=exposed-server-pod` This flag is used to give a name to our service in this example we used *exposed-server-pod*
 * `--port=8080` This flag is used to specify the port of the pod we are listening on.
 * `--type=NodePort` Finally this flag is used to specify what type will gonna be our service.
-
-

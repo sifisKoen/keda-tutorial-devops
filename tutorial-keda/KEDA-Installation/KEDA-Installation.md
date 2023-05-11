@@ -46,6 +46,8 @@ helm install keda kedacore/keda --namespace keda
 
 # Optional Step
 
+> NOTE: The KEDA pod will start to run after approximately 23 seconds
+
 Finally let us confirm that we have the KEDA operator pod up and running on our namespace.This operator is our operator witch is actually our worker witch poll and config behavior from the Kubernetes Horizontal Pod Autoscaling(HPA) object.
 
 Execute the following commands.
@@ -54,11 +56,10 @@ Execute the following commands.
 kubectl get pod -l app=keda-operator -n keda
 ```{{exec}}
 
-From this command you should take the **Name** of the pod. Then you will need to copy this name witch will be something like this: `keda-operator-96579d64c-mmwpb`. Actually, the part of keda-operator it is exactly the same as in the example. Now you have copied your pod's name you can continue.
+From this command you should take the **Name** of the pod. Then you will need to copy this name witch will be something like this: `keda-operator-96579d64c-mmwpb`. Actually, the part of **keda-operator** it is exactly the same as in the example. Now you have copied your pod's name you can continue.
 
-```cmd
-kubectl logs pod/<The name you have copied> -n keda
-```
+
+`kubectl logs pod/<The name you have copied> -n keda`
 
 > The final command should look like this: kubectl logs pod/keda-operator-96579d64c-mmwpb -n keda
 
