@@ -12,7 +12,7 @@ Ok let's start ▶️
 
 ### Ip address
 
-First we will find the ** < node-ip >** field. Execute this command. ```ip a```{{exec}} .Now you can see too many ips we will need the first ip you can see there **lo:** the ip should be `127.0.0.1`. Now copy this address and open our file with the editor of your choice.
+First we will find the ** < node-ip >** field. Execute this command. `ip a` .Now you can see too many ips we will need the first ip you can see there **lo:** the ip should be `127.0.0.1`. Now copy this address and open our file with the editor of your choice.
 
 > To write to VIM just press the < i > in your keyboard and when you finish and you want to exit just press < ESC > and < :qw! >
 
@@ -20,7 +20,7 @@ Perfect now we need to find our pods node meaning the pod where we can access ou
 
 ### Port number
 
-It's very simple just we will run one command from one of our prevues sections. ```kubectl get services -o wide```{{exec}} . Yep exactly you have already did it just copy the port number from here. A port number like this **31147** Overall a port number from **30000 to 32767**
+It's very simple just we will run one command from one of our prevues sections. `kubectl get services -o wide`. Yep exactly you have already did it just copy the port number from here. A port number like this **31147** Overall a port number from **30000 to 32767**
 
 And now that you have copy the port number you are ready make the final step for our configuration. Again as before you need to open and configure the **prometheus.yaml** file.
 

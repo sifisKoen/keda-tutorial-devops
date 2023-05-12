@@ -42,6 +42,13 @@ Now you should see the container in our command line.
 
 > We want to mention that in our Flask server we used a library so to expose our metrics to Prometheus. This library is available at **pypi** library of Python. The name of the library is: prometheus-flask-exporter. also you can see more information about the library here: [[prometheus-flask-exporter]]
 
+## Remove the Docker container
+
+Now we will remove the Docker container because we do not need it, because we will create our **POD** from this image, for our **Kubernetes** cluster.
+
+So the command that we will need to run is: `docker kill`. Copy this command and then take the **CONTAINER ID** of your container from the previous command and paste it to this command. Yout command should be like this: **docker kill a58b5e17da24**
+
+
 If you want to see how to push you own container to **docker hub** you can see the Docker documentation page: [docker-documentation]
 
 [Flask]: https://flask.palletsprojects.com/en/2.3.x/
