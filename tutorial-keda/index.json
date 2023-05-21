@@ -21,6 +21,10 @@
       {
         "title": "Prometheus Configuration",
         "text": "Prometheus-config/Prometheus-config.md"
+      },
+      {
+        "title": "KEDA Configuration",
+        "text": "KEDA-configuration/KEDA-configuration.md"
       }
     ],
     "assets": 
