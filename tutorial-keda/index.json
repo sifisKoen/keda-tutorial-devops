@@ -25,6 +25,18 @@
       {
         "title": "KEDA Configuration",
         "text": "KEDA-configuration/KEDA-configuration.md"
+      },
+      {
+        "title": "k6 Testing",
+        "text": "k6-testing-tool-configuration/k6-testing-tool-configuration.md"
+      },
+      {
+        "title": "Results",
+        "text": "final-step/tutorial-results.md"
+      },
+      {
+        "title": "Results",
+        "text": "final-step/resources.md"
       }
     ],
     "assets": 
