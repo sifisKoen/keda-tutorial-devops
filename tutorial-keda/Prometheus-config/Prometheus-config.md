@@ -1,5 +1,9 @@
 # Config our Prometheus 📡
 
+## Prometheus Image
+
+![Prometheusimg](https://github.com/sifisKoen/keda-tutorial-devops/blob/main/tutorial-keda/Prometheus-config/Prometheus%20Instance.png)
+
 For this step we will need to configure our Prometheus and run it as **Docker** container.
 
 First of all you will need to configure the yaml file that we have all ready build for you, it's time to make your hands dirty. 😁
