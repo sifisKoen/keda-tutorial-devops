@@ -14,4 +14,4 @@ Finally let's see our pods to scale up. Just open a new **Tab** to our _Killerco
 
 ```
 kubectl get pods -o wide
-```
+```{{exec}}
