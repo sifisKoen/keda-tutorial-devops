@@ -13,5 +13,5 @@ spec:
     metadata:
       serverAddress: http://<prometheus-host-ip>:9090
       metricName: flask_server_request_rate
-      query: sum(rate(http_requests_total{job="flask_server"}[1m]))
+      query: flask_http_request_total
       threshold: '10'
