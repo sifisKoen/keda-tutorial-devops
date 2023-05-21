@@ -7,6 +7,6 @@ export let options = {
 };
 
 export default function () {
-  http.get('http://172.30.1.2:31386/get_url'); // replace with your service URL. We can use the LOOPBACK address:<service-port>
+  http.get('http://<your-service-url>/get_url'); // replace with your service URL.
   sleep(1);
 }
