@@ -1,5 +1,9 @@
 # Deploy to Kubernetes
 
+## Pod Image
+
+![Podimg](https://github.com/sifisKoen/keda-tutorial-devops/blob/main/tutorial-keda/deploy_to_kubenetes/Pod.png)
+
 ## Pod Service Image
 
 ![PodServiceimg](https://github.com/sifisKoen/keda-tutorial-devops/blob/main/tutorial-keda/deploy_to_kubenetes/Pod%20Service.png)
