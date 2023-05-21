@@ -1,5 +1,9 @@
 # KEDA Configuration
 
+## KEDA Image
+
+![KEDAimg](https://github.com/sifisKoen/keda-tutorial-devops/blob/main/images/KEDA.png)
+
 Now that we have our **Prometheus** configured and monitor our cluster and we have already installed the **KEDA** we need to configure and spin up **KEDA** for our cluster.
 
 First of all, we need to connect **KEDA** with our **Prometheus** we have already the initial configuration for **KEDA**. If you execute the following command you will be able to see `cat keda-scaledobject.yaml` just run `ls` (No flags needed).
