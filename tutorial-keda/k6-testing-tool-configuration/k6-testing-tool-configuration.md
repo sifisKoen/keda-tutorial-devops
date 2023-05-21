@@ -1,5 +1,9 @@
 # k6 Testing Tool Configuration
 
+## K6 Image
+
+![K6img](https://github.com/sifisKoen/keda-tutorial-devops/blob/main/images/K6%20testing%20tool.png)
+
 Well you are at the last step of our tutorial congratulations! 🥳
 
 In this step you will _install, configure and run_ the k6 testing tool. We will use this tool so to create our virtual users for our application test.
