@@ -1,5 +1,11 @@
 # Tutorial Results
 
+## System Diagram
+
+Before we see our results let's see the final diagram of our tutorial and see how all the previous images are connected together in one robust system.
+
+![FinalDiagramimg](https://github.com/sifisKoen/keda-tutorial-devops/blob/main/images/KEDA%20tutorial%20Diagram.png)
+
 Ok now that our k6 testing tool is running we can see our results.
 
 ## Prometheus
