@@ -16,4 +16,12 @@ Now you have configured **KEDA** file it's time to apply the configuration and r
 kubectl apply -f keda-scaledobject.yaml
 ```{{exec}}
 
+# Optional Step
+
+If you want to see your scalable object you can execute this command
+
+```
+kubectl get scaledobjects
+```{{exec}}
+
 Perfect now you have your own **KEDA** instance running into the cluster. 🥳
