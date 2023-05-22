@@ -2,7 +2,7 @@
 
 ## Prometheus Image
 
-![Prometheusimg](https://github.com/sifisKoen/keda-tutorial-devops/blob/main/tutorial-keda/Prometheus-config/Prometheus%20Instance.png)
+![Prometheusimg](./Prometheus-Instance.png)
 
 For this step we will need to configure our Prometheus and run it as **Docker** container.
 

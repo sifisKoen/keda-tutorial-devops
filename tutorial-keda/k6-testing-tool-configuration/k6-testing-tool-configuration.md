@@ -2,7 +2,7 @@
 
 ## K6 Image
 
-![K6img](https://github.com/sifisKoen/keda-tutorial-devops/blob/main/tutorial-keda/k6-testing-tool-configuration/K6%20testing%20tool.png)
+![K6img](./K6-testing-tool.png)
 
 Well you are at the last step of our tutorial congratulations! 🥳
 

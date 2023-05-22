@@ -2,7 +2,7 @@
 
 ## KEDA Image
 
-![KEDAimg](https://github.com/sifisKoen/keda-tutorial-devops/blob/main/tutorial-keda/KEDA-configuration/KEDA.png)
+![KEDAimg](./KEDA.png)
 
 Now that we have our **Prometheus** configured and monitor our cluster and we have already installed the **KEDA** we need to configure and spin up **KEDA** for our cluster.
 

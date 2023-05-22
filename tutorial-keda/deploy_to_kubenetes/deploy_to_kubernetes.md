@@ -2,11 +2,11 @@
 
 ## Pod Image
 
-![Podimg](https://github.com/sifisKoen/keda-tutorial-devops/blob/main/tutorial-keda/deploy_to_kubenetes/Pod.png)
+![Podimg](./Pod.png)
 
 ## Pod Service Image
 
-![PodServiceimg](https://github.com/sifisKoen/keda-tutorial-devops/blob/main/tutorial-keda/deploy_to_kubenetes/Pod%20Service.png)
+![PodServiceimg](./Pod-Service.png)
 
 In this step we will deploy our container to our kubernetes cluster. So to use the **KEDA** tool to our cluster.
 
