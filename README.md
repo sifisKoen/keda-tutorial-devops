@@ -1,5 +1,7 @@
 # KEDA-Tutorial-DEVOPS
 
+![TutorialDiagram](tutorial-keda/final-step/KEDA-tutorial-Diagram.png)
+
 ## What we will need ⏩
 
 - Create a new Flask application.
