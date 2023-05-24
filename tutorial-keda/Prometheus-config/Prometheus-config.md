@@ -18,6 +18,8 @@ Ok let's start ▶️
 
 First we will find the **< node-ip >** field. Execute this command. `ifconfig` .Now you can see too many IPs we will need the public IP you can find it in the field **enp1s0:** the ip should be `172.30.1.2` at **inet** field. Now copy this address and open our file with the editor of your choice.
 
+> ifconfig is not installed by default in yous system so you can install it through net-tools. You can ran this command `sudo apt install net-tools` if you are in **Debian based** system.
+
 > To write to VIM just press the < i > in your keyboard and when you finish and you want to exit just press < ESC > and < :qw! >
 
 Perfect now we need to find our pods node meaning the pod where we can access our pod.
