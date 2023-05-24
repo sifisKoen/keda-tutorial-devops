@@ -7,7 +7,7 @@
 - Basic knowledge of Docker
 - And willing for knowledge!
 
-For this tutorial you will need to understand what is Kubernetes. Because KEDA is a tool for Kubernetes witch helps for scaling workloads, based on event driven metrics.
+For this tutorial you need to know what is Kubernetes. Because KEDA is a tool for Kubernetes witch helps for scaling workloads, based on event driven metrics.
 
 ## Why you should care about KEDA
 
@@ -22,4 +22,8 @@ In this tutorial you will learn the following topics.
 - Make the application exposed to real world.
 - Run and configure a Prometheus instance.
 - Connect Prometheus with KEDA tool (Kubernetes Event-driven Autoscaling).
-- Test our web page with K6 load testing.
+- Test you web page with K6 load testing.
+
+### Don't forget
+
+When you finish the tutorial, don't forget to read the special file. `ls` and `cat` commands will help you. 😅
