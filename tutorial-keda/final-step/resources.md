@@ -28,20 +28,20 @@ Here you can find all the resources the we used to build this tutorial. Some of 
 
 ## K6
 
-[k6 documentation]
-[k6 repository]
+1. [k6 documentation]
+2. [k6 repository]
 
 ## Other blogs and YouTube videos
 
 ### Blogs
 
-[Monitoring Flask microservices with Prometheus]
-[How to Autoscale Kubernetes pods]
+1. [Monitoring Flask microservices with Prometheus]
+2. [How to Autoscale Kubernetes pods]
 
 ### Videos
 
-[Why You Shouldn't Use K8s Autoscaling?]
-[KEDA: Kubernetes Event-Driven Autoscaling]
+1. [Why You Shouldn't Use K8s Autoscaling?]
+2. [KEDA: Kubernetes Event-Driven Autoscaling]
 
 > We strongly recommend to read and watch all the provided recourses. And deploy all this system to a Virtual Machine so to see it how it works in real environment.
 
