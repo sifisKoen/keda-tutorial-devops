@@ -20,7 +20,7 @@ snap install k6
 
 ## Configuration
 
-Now that you have installed the k6 testing tool. You need to configure the js script. It is very simple we have already created an initial script the only thing you need to do is just to change the `http.get('http://<your-service-url>/get_url');` field in the `k6-testing-script.js` file.
+Now that you have installed the k6 testing tool. You need to configure the js script. It is very simple we have already created an initial script the only thing you need to do is just to change the `http.get('http://<your-service-url>/get_url');` field in the in the **k6-testing-script.js** file.
 
 As before you can open the `k6-testing-script.js` file with your favorite command line editor (_vim, nano, etc_).
 
