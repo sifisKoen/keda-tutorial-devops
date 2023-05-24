@@ -1,5 +1,12 @@
 # KEDA-Tutorial-DEVOPS
 
+![TutorialDiagram](tutorial-keda/final-step/KEDA-tutorial-Diagram.png)
+
+## Tuorial
+
+You can find the tutorial in this page.
+[Killercoda Tutorial](https://killercoda.com/iosif-koen/scenario/tutorial-keda)
+
 ## What we will need ⏩
 
 - Create a new Flask application.
